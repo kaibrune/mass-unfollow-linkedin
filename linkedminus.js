@@ -12,7 +12,13 @@
       const name = button.parentElement.querySelector(
         '.follows-recommendation-card__name',
       ).innerText;
-      console.log(`Unfollow #${count}:`, name);
+
+      console.log(
+        '%c #${count} %c 👋 Unfollowed %c '+name+' ',
+        'color: #fff; background-color:#34495e',
+        'color: #fff; background-color:#27ae60',
+        'color: #000; background-color:#95a5a6', 
+      );
 
       window.scrollTo(0, button.offsetTop - 260);
       button.click();
