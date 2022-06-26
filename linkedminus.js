@@ -14,7 +14,7 @@
       ).innerText;
 
       console.log(
-        '%c #${count} %c 👋 Unfollowed %c '+name+' ',
+        `%c #${count} %c 👋 Unfollowed %c `+name+` `,
         'color: #fff; background-color:#34495e',
         'color: #fff; background-color:#27ae60',
         'color: #000; background-color:#95a5a6', 
@@ -32,6 +32,13 @@
     await new Promise((resolve) => setTimeout(resolve, 1000));
     const buttons = getAllButtons();
     if (buttons.length) run();
+
+    if (confirm('🥳 Done! We unfollowed '+count+' connections. Do you want to reload the site to update the page?') == true) {
+      location.reload();
+    }
   }
+  if (confirm('👋 Hi, are you willing to clear up your feed and unfollow all of your connections? Then press "OK" down below.') == true) {
   run();
+  }
+
 })();
