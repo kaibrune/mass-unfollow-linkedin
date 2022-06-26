@@ -15,7 +15,7 @@ You're fed up with all the pseudo-babble about your LinkedIn connections? You do
 
 ### Step 1: Open follower page
 
-First off, we need to find all the people, organisations and hashtags you follow. Therefore login to LinkedIn and visit <a href="https://www.linkedin.com/feed/following" target="_blank">https://www.linkedin.com/feed/following</a>
+First off, we need to find all the people, organisations and hashtags you follow. Therefore login to LinkedIn and visit [https://www.linkedin.com/feed/following](https://www.linkedin.com/feed/following) in a new tab.
 
 ### Step 2: Open browser console
 
