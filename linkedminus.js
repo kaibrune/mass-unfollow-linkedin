@@ -18,7 +18,7 @@
         'color: #fff; background-color:#34495e',
         'color: #fff; background-color:#27ae60',
         'color: #000; background-color:#95a5a6', 
-      );
+      ); 
 
       window.scrollTo(0, button.offsetTop - 260);
       button.click();
@@ -33,7 +33,7 @@
     const buttons = getAllButtons();
     if (buttons.length) run();
 
-    if (confirm('🥳 Done! We unfollowed '+count+' connections. Do you want to reload the site to update the page?') == true) {
+    if (confirm('🥳 Done! We unfollowed '+count+' connections. Do you want to reload the page to update?') == true) {
       location.reload();
     }
   }
